@@ -38,3 +38,14 @@ runner.averageSpeed() // 0.3 meters per second
 
 ## Challenge
 - try using `.reduce` for `total distance run` and `average speed`
+
+class runningInfo {
+    constructor(name) {
+        runner.addRun("2017-01-01", 10, 30)
+        runner.addRun("2017-01-02", 5, 20)
+
+        runner.totalDistance() 
+        runner.longestDistance() 
+        runner.averageSpeed()
+    }
+}
